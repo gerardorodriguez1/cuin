@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <img width="300" alt="Angular Logo" src="assets/loscuin.jpg">
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" [routerLink]="['/home']">INICIO <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" [routerLink]="['/models']">MODELOS</a>
+      <a class="nav-item nav-link" [routerLink]="['/services']">SERVICIOS</a>
+    </div>
+  </div>
+</nav>
+
+<!-- NO ELIMINAR ESTA PARTE-->
+<router-outlet></router-outlet>
